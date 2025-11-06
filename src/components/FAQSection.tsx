@@ -53,7 +53,7 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto">
         {/* Titre */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900 mb-8 sm:mb-12 text-center">
-          <span className="text-sky-blue">FAQ</span>
+          FAQ
         </h2>
 
         {/* Liste des FAQ */}

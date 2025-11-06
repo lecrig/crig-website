@@ -17,9 +17,9 @@ export default function HeroSection() {
       </div>
 
       {/* Contenu principal */}
-      <div className="relative z-10 flex flex-col items-center max-w-5xl mx-auto w-full">
+      <div className="relative z-10 flex flex-col items-center max-w-5xl mx-auto w-full pt-4 sm:pt-6 lg:pt-8">
         {/* Badge "Plus de 50 membres" */}
-        <div className="mb-2 sm:mb-3 flex items-center justify-center">
+        <div className="mb-6 sm:mb-8 flex items-center justify-center">
           <div className="flex items-center gap-2 px-4 py-2 border-2 border-sky-blue rounded-full bg-white/80 backdrop-blur-sm">
             <div className="flex -space-x-2">
               <div className="w-6 h-6 rounded-full bg-yellow-400 border-2 border-white"></div>
