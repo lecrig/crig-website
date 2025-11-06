@@ -8,7 +8,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-white py-6 sm:py-8 pb-4 sm:pb-6">
+    <footer className="w-full bg-white pt-6 sm:pt-8 pb-2 sm:pb-3">
       <div className="px-4 sm:px-6 lg:px-8">
         {/* Rectangle bleu marine avec bords arrondis */}
         <div className="bg-marine-blue rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12">
