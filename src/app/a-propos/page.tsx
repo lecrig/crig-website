@@ -53,7 +53,7 @@ export default function APropos() {
             <div className="flex flex-wrap justify-center gap-6 sm:gap-8 lg:gap-12 mb-8 sm:mb-12">
               {/* Président */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/president.png"
                     alt="Zineddine Chebbah"
@@ -71,7 +71,7 @@ export default function APropos() {
 
               {/* Vice président */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/vice-president.png"
                     alt="Jordan Toe"
@@ -89,7 +89,7 @@ export default function APropos() {
 
               {/* Trésorière */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/secretaire.png"
                     alt="Mélissa CHERIFI"
@@ -107,7 +107,7 @@ export default function APropos() {
 
               {/* Secrétaire */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/tresoriere.png"
                     alt="Yasmina Kader"
@@ -128,7 +128,7 @@ export default function APropos() {
             <div className="flex flex-wrap justify-center gap-6 sm:gap-8 lg:gap-12">
               {/* Responsable communication */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/com-1.png"
                     alt="Inès Gbadamassi"
@@ -146,7 +146,7 @@ export default function APropos() {
 
               {/* Responsable communication adjoint */}
               <div className="flex flex-col items-center">
-                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
+                <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
                     src="/images/com-2.png"
                     alt="Antonio Paul-Prage"
@@ -163,6 +163,11 @@ export default function APropos() {
               </div>
             </div>
           </div>
+
+          {/* Titre matériel */}
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-900 mb-8 sm:mb-12 text-center mt-16 sm:mt-20 lg:mt-24">
+            Notre matériel
+          </h2>
         </div>
       </section>
       <Footer />
