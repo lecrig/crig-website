@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useRef } from "react";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { CheckCircle2, Upload } from "lucide-react";
+import { Upload } from "lucide-react";
 
 export default function NousRejoindre() {
   const [step1Completed, setStep1Completed] = useState(false);
@@ -238,7 +239,14 @@ export default function NousRejoindre() {
 
             {/* Message final */}
             <div className="bg-sky-blue rounded-xl sm:rounded-2xl p-6 sm:p-8 text-center">
-              <CheckCircle2 className="w-12 h-12 sm:w-16 sm:h-16 text-white mx-auto mb-4" />
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4">
+                <Image
+                  src="/logos/logo-crig.png"
+                  alt="Logo CRIG"
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <h3 className="text-xl sm:text-2xl font-semibold text-white mb-2">
                 Votre inscription sera validée après ces 3 étapes
               </h3>
