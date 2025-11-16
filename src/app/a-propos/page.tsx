@@ -73,7 +73,7 @@ export default function APropos() {
               <div className="flex flex-col items-center">
                 <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full border-4 border-marine-blue overflow-hidden mb-3 sm:mb-4">
                   <Image
-                    src="/images/vice-president.png"
+                    src="/images/jordan.jpg"
                     alt="Jordan Toe"
                     fill
                     className="object-cover"
